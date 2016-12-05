@@ -21,5 +21,18 @@ $(document).ready(function () {
     scrollToSection('#js-scroll-services', "#services");
     scrollToSection('#js-scroll-portfolio', "#portfolio");
     scrollToSection('#js-scroll-contact', "#contact");
+    
+    if ($(window).width() < 768) {
+        $('#toggleTopmenu').click( function(){
+            if ($('.collapse').hasClass('in')) {
+                $('.promo').fadeIn();
+            } else {
+                $('.promo').fadeOut();
+            }
+        });
+    }
+    
+
+    
 
 });

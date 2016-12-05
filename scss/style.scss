@@ -133,8 +133,12 @@ ul {
     }
     
     .promo {
+        margin-top: 5vh;
        h1 { 
-           font-size: 32px;
+           margin: 0;
+           font-size: 28px;
+           position: static;
+           line-height: 55px;
         }
     }
 }
